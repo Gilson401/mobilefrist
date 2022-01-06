@@ -1,6 +1,6 @@
 # Framework Free Project
 
-This is an exercice of CSS and HTML responsive not using frameworks
+This is an exercise of CSS and HTML responsive not using frameworks
 
 ## Installation
 
