@@ -19,7 +19,7 @@
     --planos-cartao-ultra: #B04CD9;
     --planos-cartao-mega: #E33B3B;
 
-    --montserrat: 'Montserrat', sans-serif;
+    --montserrat: 'Source Serif Pro', serif;
 }
 
 body {
@@ -28,5 +28,11 @@ body {
 
 .container {
     padding-left: 6%;
-    padding-right: 6%;
+    padding-right: 6%;   
+}
+
+.botao{
+    border: 1px solid;
+    border-radius: 5px;
+ 
 }
