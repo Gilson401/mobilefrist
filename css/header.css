@@ -1,18 +1,14 @@
 .cabecalho {
     color: #FFF;
+}
 
-    width: 100%;
-
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-
-    border-bottom: 1px solid #103D4A;
-
+.cabecalho__title {
+    font-family: var(--hammersmith);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 46.56px;
+    letter-spacing: -0.015em;
+    text-align: left;
 }
 
 .cabecalho__logo {
@@ -32,4 +28,10 @@
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
+}
+
+
+.cabecalho__link img {
+    width: 38.41px;
+    height: 39.16px;
 }

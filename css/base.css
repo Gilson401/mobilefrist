@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Hammersmith+One&display=swap');
 
 :root{
-    --branco: #FFF;
+    --branco:  #FFFFFF;
     --azul-claro: #DFE3E5;
     --gradient: #EB3812;
     --branco: #FFF;
@@ -28,7 +28,7 @@
 body {
     font-family: "Hammersmith One", sans-serif;
 
-    background:  radial-gradient(farthest-side at left bottom,  #063FD0 50px, #010110), radial-gradient(farthest-side at right top, #063FD0, #010110 );
+    background:  radial-gradient(farthest-side at left top,  #152242 100px, #010110 350px);
     width: 100vw;
     margin: 0;
 }
