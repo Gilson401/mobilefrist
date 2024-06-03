@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Hammersmith+One&display=swap');
+
 :root{
     --branco: #FFF;
     --azul-claro: #DFE3E5;
@@ -19,11 +21,12 @@
     --planos-cartao-ultra: #B04CD9;
     --planos-cartao-mega: #E33B3B;
 
-    --montserrat: 'Source Serif Pro', serif;
+    --hammersmith: "Hammersmith One", sans-serif;
+    --epilogue: "Epilogue", sans-serif;
 }
 
 body {
-    font-family: 'Source Serif Pro', serif;
+    font-family: "Hammersmith One", sans-serif;
 }
 
 .container {

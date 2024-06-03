@@ -9,7 +9,7 @@
     color: var(--cinza-escuro);
     font-weight: 700;
     font-size: 1.5rem;
-    font-family: var(--montserrat);
+    font-family: var(--hammersmith);
     text-transform: uppercase;
     text-align: center;
 
@@ -43,11 +43,9 @@
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
-
     padding: .75rem 0;
-
     margin-bottom: .5rem;
-
+    font-family: var(--hammersmith);
     border-bottom: 1px solid var(--azul-claro);
 }
 
@@ -67,6 +65,7 @@
 .cartao__texto {
     color: var(--fonte-cinza);
     line-height: 28px;
+    font-family: var(--epilogue);
 }
 
 .cartao__botao {

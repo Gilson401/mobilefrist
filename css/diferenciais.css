@@ -33,10 +33,11 @@
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
-
+    font-family: var(--hammersmith);
     margin-bottom: 1.5rem;
 }
 
 .item__texto {
     line-height: normal;
+    font-family: var(--epilogue);
 }
