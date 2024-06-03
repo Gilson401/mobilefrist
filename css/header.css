@@ -12,8 +12,9 @@
 }
 
 .cabecalho__logo {
-    margin-bottom: 1rem;
     border-radius: 50%;
+    height: 474px;
+    width: 474px;
 }
 
 .cabecalho__navegacao {
@@ -35,3 +36,4 @@
     width: 38.41px;
     height: 39.16px;
 }
+
