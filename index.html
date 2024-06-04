@@ -1,5 +1,5 @@
 <!DOCTYPE html5>
-<html>
+<html lang="pt-1">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -15,7 +15,7 @@
     <link href="css/diferenciais.css" rel="stylesheet">
     <link href="css/sobre.css" rel="stylesheet">
     <link href="css/contato.css" rel="stylesheet">
-    <link href="css/planos.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
     <link href="css/institucional.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
 
@@ -42,8 +42,8 @@
     </header>
 
     <main>
-        <section class="chamada container justify-content-between">
-            <div class="d-flex flex-column text-start">
+        <section class="chamada container justify-content-between chamada__content">
+            <div class="d-flex flex-column chamada__left ">
 
                 <h2 class="chamada__titulo">Olá! Sou Gilson Paulo,
                     Web e Mobile Developer</h2>
@@ -64,121 +64,144 @@
         </section>
 
         <section class="diferenciais container">
-            <ul class="diferenciais__lista">
-                <li class="diferenciais__item 
-                    diferenciais__item--tempo">
-                    <h2 class="item__titulo">Tempo</h2>
-                    <p class="item__texto">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente
-                        aos prazos.</p>
-                </li>
-                <li class="diferenciais__item 
-                    diferenciais__item--foco">
-                    <h2 class="item__titulo">Foco</h2>
-                    <p class="item__texto">Focamos no empreendimento! Oferecemos serviços de qualidade com preços
-                        acessíveis.</p>
-                </li>
-                <li class="diferenciais__item 
-                    diferenciais__item--foco">
-                    <h2 class="item__titulo">Especialistas</h2>
-                    <p class="item__texto">Equipe experiente e especializada! Testamos todos os produtos antes do
-                        lançamento.</p>
-                </li>
-            </ul>
+
+            <h2 class="section__titulo mb-3">Por que me contratar?</h2>
+
+            <p class="item__texto">
+                Com experiência formal em desenvolvimento web Front-End iniciando em agosto de 2021 até o
+                momento. No meu trabalho mais recente trabalhei com desenvolvimento mobile com Flutter. </p>
+
+            <p class="item__texto">
+                Anteriormente trabalhei com os frameworks VueJS, NuxtJS e libs como Vuex, Highcharts, TailwindCSS entre
+                outras.</p>
+
+            <p class="item__texto">
+                Experiência em versionamento de código com GIT usando Github. Também possuo experiência em rotinas ágeis
+                como SCRUM.</p>
+
+            <p class="item__texto">
+                Tenho experiência anterior de 16 anos como assistente admiistrativo da antiga Br Distribuidora, hoje
+                Vibra Energia. Embora eu seja jr como desenvolvedor, considero-me com maturidade profissional e
+                emocional para a atividade.
+                Disponibilidade para trabalho presencial no Rio de Janeiro, remoto, híbrido, contratos PJ ou CLT.
+            </p>
+
+            <p class="item__texto">
+                Um outro diferencial são as tecnologias que eu utilizo: MongoDB, ExpressJS, React e NodeJS. Consideradas
+                mais modernas em suas áreas, elas dão flexibilidade ao desenvolvedor.
+            </p>
         </section>
 
-        <section id="sobre" class="sobre">
-            <div class="sobre__conteudo container">
-                <h2 class="sobre__titulo">Sobre</h2>
-                <p class="sobre__texto">Crio front ends <strong class="sobre__texto--destaque">responsivos</strong>!</p>
-                <p class="sobre__texto">
-                    Desenvolvedor fornt end com experiência em Vue e Nuxt. Também já elaborei projetos pessoais em
-                    React.
-                </p>
-                <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
-                    Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.
-                </p>
-                <ul class="sobre__plataformas">
-                    <li><img src="img/node.jpeg" alt="Ícone do Mongo"></li>
-                    <li><img src="img/nuxt.jpeg" alt="Ícone Nuxt"></li>
-                    <li><img src="img/react.jpeg" alt="Ícone da react"></li>
-                    <li><img src="img/tailwindcss.png" alt="Ícone da Node"></li>
-                </ul>
-                <p class="sobre__texto">Desenvolvemos aplicativos para todas as plataformas</p>
+
+
+        <section id="portfolio" class="portfolio container">
+
+            <div class="align-items-end d-flex justify-content-center mb-3">
+                <div>
+
+                    <h2 class="section__titulo">Portfólio</h2>
+                </div>
+                <img class="pt-1" src="img/chevron-direito.svg" alt="imgsvg" />
             </div>
 
-            <div class="centro">
 
-                <img src="img/gpsc.png" alt="Sobre a Apeperia" class="sobre__imagem">
-            </div>
-        </section>
-        <section id="portfolio" class="planos container">
-            <h2 class="planos__titulo">Planos</h2>
-            <div class="planos__cartoes">
+            <div class="portfolio__cartoes">
                 <div class="center_self">
-                    <div class="cartao cartao--start">
-                        <h3 class="cartao__titulo">Start</h3>
+                    <div class="cartao">
+                        <h3 class="cartao__titulo">Vue3 Typescript Pinia.</h3>
                         <article class="cartao__conteudo">
-                            <p class="cartao__preco"><em>R$ 500</em></p>
-                            <p class="cartao__texto">5 manutenções mensais</p>
-                            <p class="cartao__texto">App SEO</p>
-                            <p class="cartao__texto">1 sistema operacional</p>
-                            <a role="button" href="plano.html" class="cartao__botao cartao__botao--start botao">Assinar
-                                plano</a>
+                            <a role="button" href="https://vue-pinia-typescript.netlify.app/">
+                                <img src="img/vue3-type-pinia.PNG" />
+                            </a>
+                            <p class="cartao__texto mt-3 mx-2">Implementação de Vue3 com Typescript e gerenciamento de
+                                estados com Pinia. Consumo de Api pública do Pokemon e Piadas nerds.</p>
                         </article>
                     </div>
-                    <div class="cartao cartao--ultra">
-                        <h3 class="cartao__titulo">Ultra</h3>
+                    <div class="cartao">
+                        <h3 class="cartao__titulo">Consultora Daniela.</h3>
                         <article class="cartao__conteudo">
-                            <p class="cartao__preco"><em>R$ 1500</em></p>
-                            <p class="cartao__texto">20 manutenções mensais</p>
-                            <p class="cartao__texto">App SEO</p>
-                            <p class="cartao__texto">4 sistemas operacionais</p>
-                            <p class="cartao__texto">24h de atendimento</p>
-                            <a href="" class="cartao__botao cartao__botao--ultra botao">Assinar plano</a>
+                            <a role="button" href="https://www.daniestiloeimagem.com.br/">
+                                <img src="img/daniela.PNG" />
+                            </a>
+                            <p class="cartao__texto mt-3 mx-2">Página de uma consultora de moda e estilo. Em construção. Projeto em Reactjs Typescript, vitejs e Tawilwind.</p>
                         </article>
                     </div>
-                    <div class="cartao cartao--mega">
-                        <h3 class="cartao__titulo">Mega</h3>
-                        <p class="cartao__preco"><em>R$ 1000</em></p>
+
+                    <div class="cartao">
+                        <h3 class="cartao__titulo">Vue2 Emoji Picker POC.</h3>
                         <article class="cartao__conteudo">
-                            <p class="cartao__texto">10 manutenções mensais</p>
-                            <p class="cartao__texto">App SEO</p>
-                            <p class="cartao__texto">2 sistemas operacionais</p>
-                            <a href="" class="cartao__botao cartao__botao--mega botao">Assinar plano</a>
+                            <a role="button" href="https://emoji-picker-poc.netlify.app/#/">
+                                <img src="img/emoji-picker.PNG" />
+                            </a>
+                            <p class="cartao__texto mt-3 mx-2">Chat Vuejs2 Prova de Conceito de da lib Emoji-picker.</p>
                         </article>
                     </div>
+
+                    <div class="cartao">
+                        <h3 class="cartao__titulo">Fake Store Api Flutter.</h3>
+                        <article class="cartao__conteudo">
+                            <a role="button" href="https://gilson401.github.io/flutter_store/">
+                                <img src="img/flutter-fake-store.PNG" />
+                            </a>
+                            <p class="cartao__texto mt-3 mx-2">
+                                Aplicação feita em Flutter com uma build web. Consome a Fake Store Api simulando um
+                                e-comerce. State-management com Getx, Arquitetura MVC</p>
+                        </article>
+                    </div>
+
+                    <div class="cartao">
+                        <h3 class="cartao__titulo">Fake Store Api em Vue2.</h3>
+                        <article class="cartao__conteudo">
+                            <a role="button" href="https://petit-dubois.netlify.app/">
+                                <img src="img/vue-fake-store.PNG" />
+                            </a>
+                            <p class="cartao__texto mt-3 mx-2">
+                                Aplicação feita em VueJS. Consome a Fake Store Api simulando um e-comerce.
+                                State-management com Vuex</p>
+                        </article>
+                    </div>
+
+                    <div class="cartao">
+                        <h3 class="cartao__titulo">Aplicativo de exercícios academia</h3>
+                        <article class="cartao__conteudo">
+                            <a role="button" href="https://gilson401.github.io/workout-web/">
+                                <img src="img/workout.PNG" />
+                            </a>
+                            <p class="cartao__texto mt-3 mx-2">
+                                Aplicação feita em Flutter Web. Demonstração de consumo de API via JSON Placeholder.</p>
+                        </article>
+                    </div>
+                    
+                    <div class="cartao">
+                        <h3 class="cartao__titulo">Reactjs Typescript Tailwindcss Vite Project WIP</h3>
+                        <article class="cartao__conteudo">
+                            <a role="button" href="https://react-typescript-tailwind.netlify.app/">
+                                <img src="img/react-typescript-tailwind-demo.PNG" />
+                            </a>
+                            <p class="cartao__texto mt-3 mx-2">
+                                Reactjs Typescript Tailwindcss Vite Project WIP.</p>
+                        </article>
+                    </div>
+
                 </div>
             </div>
         </section>
 
         <section id="contato" class="contato container">
-            <h2 class="contato__titulo">Contato</h2>
+
+            <div class="align-items-end d-flex justify-content-center">
+                <div>
+
+                    <h2 class="section__titulo">Contato</h2>
+                </div>
+                <img class="pt-1" src="img/chevron-direito.svg" alt="imgsvg" />
+            </div>
+
             <p>Entre em contato com a gente</p>
             <a href="contato.html" class="contato__botao botao">Entre em contato</a>
         </section>
 
 
-
-        <section class="institucional container">
-
-            <h2 class="institucional__titulo"> Institucional </h2>
-
-            <article>
-                <address class="institucional__endereco">
-                    Rua lorem ipsum da silva
-                </address>
-
-                <a href="mailto:gilson@investfy.com" class="institucional__contato-email"> Email </a>
-            </article>
-
-            <div class="institucional__video">
-
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/nx7WJJ7Oh_Q?controls=0"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </section>
 
 
         <footer class="rodape container">
@@ -218,7 +241,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-        <script src="./js/animations.js"></script>
+    <!-- <script src="./js/animations.js"></script> -->
+    <script src="./js/titulo-com-seta.js"></script>
 
 </body>
 

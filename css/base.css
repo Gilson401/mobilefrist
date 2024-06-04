@@ -21,10 +21,12 @@
     --planos-cartao-ultra: #B04CD9;
     --planos-cartao-mega: #E33B3B;
 
+    --cartao-texto: #010212;
+
     --hammersmith: "Hammersmith One", sans-serif;
     --epilogue: "Epilogue", sans-serif;
 
-
+--smal-h-pad: 5.5rem;
 
 
 }
@@ -41,5 +43,16 @@ body {
 .botao {
     border: 1px solid;
     border-radius: 5px;
+
+}
+
+.section__titulo {
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 29px;
+    font-family: var(--hammersmith);
+    text-align: center;
+    
+    margin-right: 10px;
 
 }

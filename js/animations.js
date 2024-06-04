@@ -1,5 +1,5 @@
 
-const images = document.querySelectorAll("#sobre");
+const images = document.querySelectorAll("#portfolio");
 
 function handleScroll() {
     images.forEach((image) => {

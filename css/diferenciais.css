@@ -1,43 +1,30 @@
 .diferenciais {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding: 2.5rem var(--smal-h-pad);
+    text-align: center;
 }
 
-.diferenciais__lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.diferenciais__item {
-    max-width: 350px;
-    box-sizing: border-box;
-    padding: 2rem 0 2rem 5rem;
-    background-repeat: no-repeat;
-    background-position: top 1.2rem left 0.5rem;
-}
-
-
-.diferenciais__item--tempo {
-    background-image: url("https://imagensemoldes.com.br/wp-content/uploads/2020/08/Cartoon-Ampulheta-PNG-1024x1024.png");
-    background-size: 4rem 4rem;
-}
-
-.diferenciais__item--foco {
-    background-image: url("https://www.cabodesantoagostinho.pe.leg.br/imagens/lupa.png");
-    background-size: 4rem 4rem;
-}
 
 .item__titulo {
-    color: var(--cinza-escuro);
-    font-weight: 700;
-    font-size: 1.2rem;
-    text-transform: uppercase;
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 30px;
     font-family: var(--hammersmith);
     margin-bottom: 1.5rem;
 }
 
 .item__texto {
-    line-height: normal;
+    color: var(--branco);
+    line-height: 18px;
     font-family: var(--epilogue);
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .diferenciais {
+        padding: 3.5rem 0;
+        text-align: left;
+    }
+    
 }

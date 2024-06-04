@@ -4,13 +4,21 @@
     align-items: center;
     color: var(--azul-claro);
     text-align: center;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding: 2.5rem 5.5rem;
+}
+
+.chamada__content {
+    container-type: inline-size;
+    container-name: chamada-me;
+}
+
+.chamada__left {
+    text-align: center !important;
 }
 
 .chamada__titulo {
     font-family: var(--hammersmith);
-    font-size: 2.375rem;
+    font-size: 1.75rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
 }
@@ -24,9 +32,10 @@
 }
 
 .chamada__portrait {
-    width: clamp(50vw, 70vw, 474px) ;
+    width: clamp(50vw, 60vw, 400px);
     border-radius: 50%;
     aspect-ratio: 1/1;
+    margin-bottom: 30px;
 }
 
 .chamada__botao {
@@ -61,7 +70,7 @@
 .chamada__botao img {
     margin-left: 20px;
     width: 20px;
-    height: 20px;
+    height: 20px;    
 }
 
 
@@ -69,11 +78,30 @@
     .chamada__texto {
         max-width: 900px;
     }
+
+    .chamada__titulo {
+        font-size: 2.375rem;
+    }
+
+    .chamada {
+        padding-left: unset;
+        padding-right: unset;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
     .chamada {
         display: flex;
         flex-direction: row;
+    }
+    .chamada__portrait {
+        margin-bottom: 0;
+    }
+}
+
+@container chamada-me (min-width: 768px) {
+    .chamada__left {
+        text-align: left !important;
     }
 }

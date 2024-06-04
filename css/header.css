@@ -1,25 +1,20 @@
 .cabecalho {
     color: #FFF;
+    container-type: inline-size;
 }
 
 .cabecalho__title {
     font-family: var(--hammersmith);
-    font-size: 38px;
+    font-size: 25px;
     font-weight: 400;
-    line-height: 46.56px;
+    line-height: 22.08px;
     letter-spacing: -0.015em;
     text-align: left;
 }
 
-.cabecalho__logo {
-    border-radius: 50%;
-    height: 474px;
-    width: 474px;
-}
 
-.cabecalho__navegacao {
-    text-align: center;
-}
+
+
 
 .cabecalho__link {
     font-size: 1.1rem;
@@ -33,7 +28,22 @@
 
 
 .cabecalho__link img {
-    width: 38.41px;
-    height: 39.16px;
+    width: 21.5px;
+    aspect-ratio: 1/1;
+    /* height: 12.5px; */
 }
 
+ 
+  @container (min-width: 700px) {
+    .cabecalho__link img {
+        width: 38.41px;
+        height: 39.16px;
+    }
+
+    .cabecalho__title {
+        font-size: 38px;
+        line-height: 46.56px;
+    }
+
+  }
+  
