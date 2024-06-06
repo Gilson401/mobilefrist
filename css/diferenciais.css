@@ -1,5 +1,6 @@
 .diferenciais {
-    padding: 2.5rem var(--smal-h-pad);
+    padding-top: var(--section-v-pad);
+    padding-bottom: var(--section-v-pad);
     text-align: center;
 }
 
@@ -14,10 +15,10 @@
 
 .item__texto {
     color: var(--branco);
-    line-height: 18px;
+    line-height: 30px;
     font-family: var(--epilogue);
     font-weight: 300;
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 10px;
 }
 

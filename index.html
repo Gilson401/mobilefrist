@@ -27,7 +27,7 @@
         <h1 class="d-inline-block cabecalho__title">Gilson Paulo</h1>
         <nav class="d-inline-block">
             <ul class="animate__animated animate__backInRight">
-                <li title="infromações" class="cabecalho__link"><a href="#sobre">
+                <li title="infromações" class="cabecalho__link"><a href="#diferenciais">
                         <img src="img/comentario-informacoes.png" />
                     </a></li>
                 <li title="portfolio" class="cabecalho__link"><a href="#portfolio">
@@ -45,10 +45,51 @@
         <section class="chamada container justify-content-between chamada__content">
             <div class="d-flex flex-column chamada__left ">
 
-                <h2 class="chamada__titulo">Olá! Sou Gilson Paulo,
-                    Web e Mobile Developer</h2>
+                <h2 class="chamada__titulo"> Front end Web and Mobile Developer</h2>
 
-                <p class="chamada__texto">Flutter, VueJS, NuxtJS, MongoDB, ExpressJS, React e NodeJS.</p>
+                <p class="chamada__texto">
+                    Hi, I'm Gilson Paulo. A passionate Front-end Flutter, VueJS, NuxtJS and React based in Rio de
+                    Janeiro, Brazil.</p>
+
+                <div class="chamada__links mt-3">
+                    <a href="https://github.com/Gilson401" target="_blank" class="hvr-bob">
+
+                        <img class="pt-1 " src="img/github-svgrepo-com.svg" alt="github" />
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/gpsc/?locale=en_US" target="_blank" class="hvr-bob">
+
+                        <img class="pt-1 mx-2" src="img/linkedin-svgrepo-com.svg" alt="linkedin." />
+                    </a>
+                </div>
+
+                <div class="mt-3">
+
+                    <a href="https://flutter.dev/" target="_blank" rel="noreferrer" class="hvr-bob">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                            height="36" width="36" alt="flutter logo" />
+                    </a>
+
+                    <a href="https://reactjs.org/" target="_blank" rel="noreferrer" class="hvr-bob"><img
+                            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                            width="36" height="36" alt="React" /></a>
+
+                    <a href="https://vuejs.org/" target="_blank" rel="noreferrer" class="hvr-bob"><img
+                            src="https://v2.vuejs.org/images/logo.svg" width="36" height="36" alt="Vue" /></a>
+
+                    <a href="https://nuxtjs.org/" target="_blank" rel="noreferrer" class="hvr-bob"><img
+                            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nuxtjs-colored.svg"
+                            width="36" height="36" alt="Nuxtjs" /></a>
+
+                    <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer" class="hvr-bob">
+                        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
+                            width="36" height="36" alt="TailwindCSS" /></a>
+
+                    <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer" class="hvr-bob"><img
+                            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+                            width="36" height="36" alt="Bootstrap" /></a>
+
+                </div>
                 <div class="mt-5">
 
                     <a class="chamada__botao" href="#portfolio">
@@ -60,10 +101,10 @@
                 </div>
             </div>
 
-            <img src="img/gilson.png" alt="user image" class="chamada__portrait ml-5">
+            <img src="img/gilson.png" alt="user image" class="chamada__portrait ml-5 hero-img">
         </section>
 
-        <section class="diferenciais container">
+        <section id="diferenciais" class="diferenciais container">
 
             <h2 class="section__titulo mb-3">Por que me contratar?</h2>
 
@@ -90,12 +131,17 @@
                 Um outro diferencial são as tecnologias que eu utilizo: MongoDB, ExpressJS, React e NodeJS. Consideradas
                 mais modernas em suas áreas, elas dão flexibilidade ao desenvolvedor.
             </p>
+
+            <p class="item__texto">
+                Disponibilidade remoto para CLT, PJ e Freelancer. Presencial e híbrido a depender de negociação e
+                condições.
+            </p>
+
         </section>
 
 
 
         <section id="portfolio" class="portfolio container">
-
             <div class="align-items-end d-flex justify-content-center mb-3">
                 <div>
 
@@ -104,135 +150,182 @@
                 <img class="pt-1" src="img/chevron-direito.svg" alt="imgsvg" />
             </div>
 
+            <div id="carouselExampleFade" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
 
-            <div class="portfolio__cartoes">
-                <div class="center_self">
-                    <div class="cartao">
-                        <h3 class="cartao__titulo">Vue3 Typescript Pinia.</h3>
-                        <article class="cartao__conteudo">
-                            <a role="button" href="https://vue-pinia-typescript.netlify.app/">
-                                <img src="img/vue3-type-pinia.PNG" />
-                            </a>
-                            <p class="cartao__texto mt-3 mx-2">Implementação de Vue3 com Typescript e gerenciamento de
-                                estados com Pinia. Consumo de Api pública do Pokemon e Piadas nerds.</p>
-                        </article>
-                    </div>
-                    <div class="cartao">
-                        <h3 class="cartao__titulo">Consultora Daniela.</h3>
-                        <article class="cartao__conteudo">
-                            <a role="button" href="https://www.daniestiloeimagem.com.br/">
-                                <img src="img/daniela.PNG" />
-                            </a>
-                            <p class="cartao__texto mt-3 mx-2">Página de uma consultora de moda e estilo. Em construção. Projeto em Reactjs Typescript, vitejs e Tawilwind.</p>
-                        </article>
-                    </div>
+                        <div class="center_self">
+                            <div class="cartao">
+                                <h3 class="cartao__titulo">Vue3 Typescript Pinia.</h3>
+                                <article class="cartao__conteudo">
+                                    <a role="button" href="https://vue-pinia-typescript.netlify.app/">
+                                        <img src="img/portfolio-thumbs/vue3-type-pinia.PNG" />
+                                    </a>
+                                    <p class="cartao__texto mt-3 mx-2">Implementação de Vue3 com Typescript e
+                                        gerenciamento de
+                                        estados com Pinia. Consumo de Api pública do Pokemon e Piadas nerds.</p>
+                                </article>
+                            </div>
+                            <div class="cartao">
+                                <h3 class="cartao__titulo">Consultora Daniela.</h3>
+                                <article class="cartao__conteudo">
+                                    <a role="button" href="https://www.daniestiloeimagem.com.br/">
+                                        <img src="img/portfolio-thumbs/daniela.PNG" />
+                                    </a>
+                                    <p class="cartao__texto mt-3 mx-2">Página de uma consultora de moda e estilo. Em
+                                        construção. Projeto em Reactjs Typescript, vitejs e Tawilwind.</p>
+                                </article>
+                            </div>
 
-                    <div class="cartao">
-                        <h3 class="cartao__titulo">Vue2 Emoji Picker POC.</h3>
-                        <article class="cartao__conteudo">
-                            <a role="button" href="https://emoji-picker-poc.netlify.app/#/">
-                                <img src="img/emoji-picker.PNG" />
-                            </a>
-                            <p class="cartao__texto mt-3 mx-2">Chat Vuejs2 Prova de Conceito de da lib Emoji-picker.</p>
-                        </article>
-                    </div>
-
-                    <div class="cartao">
-                        <h3 class="cartao__titulo">Fake Store Api Flutter.</h3>
-                        <article class="cartao__conteudo">
-                            <a role="button" href="https://gilson401.github.io/flutter_store/">
-                                <img src="img/flutter-fake-store.PNG" />
-                            </a>
-                            <p class="cartao__texto mt-3 mx-2">
-                                Aplicação feita em Flutter com uma build web. Consome a Fake Store Api simulando um
-                                e-comerce. State-management com Getx, Arquitetura MVC</p>
-                        </article>
+                            <div class="cartao">
+                                <h3 class="cartao__titulo">Vue2 Emoji Picker POC.</h3>
+                                <article class="cartao__conteudo">
+                                    <a role="button" href="https://emoji-picker-poc.netlify.app/#/">
+                                        <img src="img/portfolio-thumbs/emoji-picker.PNG" />
+                                    </a>
+                                    <p class="cartao__texto mt-3 mx-2">Chat Vuejs2 Prova de Conceito de da lib
+                                        Emoji-picker.</p>
+                                </article>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="cartao">
-                        <h3 class="cartao__titulo">Fake Store Api em Vue2.</h3>
-                        <article class="cartao__conteudo">
-                            <a role="button" href="https://petit-dubois.netlify.app/">
-                                <img src="img/vue-fake-store.PNG" />
-                            </a>
-                            <p class="cartao__texto mt-3 mx-2">
-                                Aplicação feita em VueJS. Consome a Fake Store Api simulando um e-comerce.
-                                State-management com Vuex</p>
-                        </article>
+
+                    <!-- === -->
+                    <div class="carousel-item">
+                        <div class="center_self">
+                            <div class="cartao">
+                                <h3 class="cartao__titulo">Fake Store Api Flutter.</h3>
+                                <article class="cartao__conteudo">
+                                    <a role="button" href="https://gilson401.github.io/flutter_store/">
+                                        <img src="img/portfolio-thumbs/flutter-fake-store.PNG" />
+                                    </a>
+                                    <p class="cartao__texto mt-3 mx-2">
+                                        Aplicação feita em Flutter com uma build web. Consome a Fake Store Api simulando
+                                        um
+                                        e-comerce. State-management com Getx, Arquitetura MVC</p>
+                                </article>
+                            </div>
+
+                            <div class="cartao">
+                                <h3 class="cartao__titulo">Fake Store Api em Vue2.</h3>
+                                <article class="cartao__conteudo">
+                                    <a role="button" href="https://petit-dubois.netlify.app/">
+                                        <img src="img/portfolio-thumbs/vue-fake-store.PNG" />
+                                    </a>
+                                    <p class="cartao__texto mt-3 mx-2">
+                                        Aplicação feita em VueJS. Consome a Fake Store Api simulando um e-comerce.
+                                        State-management com Vuex</p>
+                                </article>
+                            </div>
+
+                            <div class="cartao">
+                                <h3 class="cartao__titulo">Aplicativo de exercícios academia</h3>
+                                <article class="cartao__conteudo">
+                                    <a role="button" href="https://gilson401.github.io/workout-web/">
+                                        <img src="img/portfolio-thumbs/workout.PNG" />
+                                    </a>
+                                    <p class="cartao__texto mt-3 mx-2">
+                                        Aplicação feita em Flutter Web. Demonstração de consumo de API via JSON
+                                        Placeholder.</p>
+                                </article>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- === -->
+                    <div class="carousel-item">
+                        <div class="center_self">
+                            <div class="cartao">
+                                <h3 class="cartao__titulo">Reactjs Typescript Tailwindcss Vite Project WIP</h3>
+                                <article class="cartao__conteudo">
+                                    <a role="button" href="https://react-typescript-tailwind.netlify.app/">
+                                        <img src="img/portfolio-thumbs/react-typescript-tailwind-demo.PNG" />
+                                    </a>
+                                    <p class="cartao__texto mt-3 mx-2">
+                                        Reactjs Typescript Tailwindcss Vite Project WIP.</p>
+                                </article>
+                            </div>
+
+                            <div class="cartao">
+                                <h3 class="cartao__titulo">Em desenvolvimento</h3>
+                                <article class="cartao__conteudo">
+                                    <a role="button" href="#">
+                                        <img src="img/portfolio-thumbs/coming-soon.png" />
+                                    </a>
+                                    <p class="cartao__texto mt-3 mx-2">
+                                        Em desenvolvimento.</p>
+                                </article>
+                            </div>
+
+                            <div class="cartao">
+                                <h3 class="cartao__titulo">Em desenvolvimento</h3>
+                                <article class="cartao__conteudo">
+                                    <a role="button" href="#">
+                                        <img src="img/portfolio-thumbs/coming-soon.png" />
+                                    </a>
+                                    <p class="cartao__texto mt-3 mx-2">
+                                        Em desenvolvimento.</p>
+                                </article>
+                            </div>
+
+                        </div>
                     </div>
 
-                    <div class="cartao">
-                        <h3 class="cartao__titulo">Aplicativo de exercícios academia</h3>
-                        <article class="cartao__conteudo">
-                            <a role="button" href="https://gilson401.github.io/workout-web/">
-                                <img src="img/workout.PNG" />
-                            </a>
-                            <p class="cartao__texto mt-3 mx-2">
-                                Aplicação feita em Flutter Web. Demonstração de consumo de API via JSON Placeholder.</p>
-                        </article>
-                    </div>
-                    
-                    <div class="cartao">
-                        <h3 class="cartao__titulo">Reactjs Typescript Tailwindcss Vite Project WIP</h3>
-                        <article class="cartao__conteudo">
-                            <a role="button" href="https://react-typescript-tailwind.netlify.app/">
-                                <img src="img/react-typescript-tailwind-demo.PNG" />
-                            </a>
-                            <p class="cartao__texto mt-3 mx-2">
-                                Reactjs Typescript Tailwindcss Vite Project WIP.</p>
-                        </article>
-                    </div>
 
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
-
         <section id="contato" class="contato container">
-
             <div class="align-items-end d-flex justify-content-center">
                 <div>
-
                     <h2 class="section__titulo">Contato</h2>
                 </div>
                 <img class="pt-1" src="img/chevron-direito.svg" alt="imgsvg" />
             </div>
 
-            <p>Entre em contato com a gente</p>
-            <a href="contato.html" class="contato__botao botao">Entre em contato</a>
+            <div class="chamada__links mt-3 d-flex">
+
+                <a href="https://www.linkedin.com/in/gpsc/?locale=en_US" target="_blank" class="hvr-bob">
+
+                    <img class="pt-1 mx-2" src="img/email-svgrepo-com.svg" alt="linkedin." />
+                </a>
+
+                <a href="mailto:dev.gpsc@gmail.com" target="_blank" class="hvr-bob item__texto">
+                    dev.gpsc@gmail.com
+                </a>
+
+            </div>
         </section>
 
 
 
-
         <footer class="rodape container">
-            <img src="img/gpsc.png" alt="logo" class="rodape__logo">
             <ul class="rodape__social">
-                <li class="rodape_links_items">
-                    <a href="https://www.linkedin.com/in/gpsc/" class="rodape__midia">
-                        <img src="img/nuxt.jpeg" alt="alt" class="rodape__img">
+                <li class="rodape_links_items chamada__links">
+                    <a href="https://www.linkedin.com/in/gpsc/" class="hvr-bob">
+                        <img class="pt-1 mx-2" src="img/linkedin-svgrepo-com.svg" alt="linkedin." />
                     </a>
                 </li>
-                <li class="rodape_links_items">
-                    <a href="https://www.linkedin.com/in/gpsc/" class="rodape__midia">
-                        <img src="img/nuxt.jpeg" alt="alt" class="rodape__img">
+                <li class="rodape_links_items chamada__links">
+                    <a href="https://github.com/Gilson401" target="_blank" class="hvr-bob">
+
+                        <img class="pt-1 " src="img/github-svgrepo-com.svg" alt="github" />
                     </a>
                 </li>
-                <li class="rodape_links_items">
-                    <a href="https://www.linkedin.com/in/gpsc/" class="rodape__midia">
-                        <img src="img/nuxt.jpeg" alt="alt" class="rodape__img">
-                    </a>
-                </li>
+
             </ul>
-            <naf>
-                <ul class="rodape__navegacao">
-                    <li class="rodape__link"><a href="#"> Link A</a></li>
-                    <li class="rodape__link"><a href="#"> Link B </a></li>
-                    <li class="rodape__link"><a href="#"> Link C</a></li>
-                    <li class="rodape__link"><a href="#">Link D</a></li>
-                    <li class="rodape__link"><a href="#">Link E</a></li>
-                    <li class="rodape__link"><a href="#">Link F</a></li>
-                </ul>
-            </naf>
+
         </footer>
 
 
@@ -240,9 +333,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
-    <!-- <script src="./js/animations.js"></script> -->
-    <script src="./js/titulo-com-seta.js"></script>
 
 </body>
 

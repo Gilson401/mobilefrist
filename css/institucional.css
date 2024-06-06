@@ -6,8 +6,8 @@
     color: var(--fonte-cinza);
     text-align: center;
 
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: var(--section-v-pad);
+    padding-bottom: var(--section-v-pad);
 }
 
 .institucional__titulo {

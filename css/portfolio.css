@@ -1,7 +1,7 @@
 .portfolio {
  
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: var(--section-v-pad);
+    padding-bottom: var(--section-v-pad);
 }
 
 
@@ -22,7 +22,7 @@
 .cartao {
     background-color: var(--cinza-medio);
     width: 100%;
-    max-width: 300px;    
+    max-width: 400px;    
     margin-bottom: 2rem;
     padding-bottom: 1rem;
     border-radius: 20px;

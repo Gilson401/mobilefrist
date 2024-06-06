@@ -1,6 +1,6 @@
 .sobre {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: var(--section-v-pad);
+    padding-bottom: var(--section-v-pad);
 }
 
 .sobre__conteudo{
@@ -20,9 +20,17 @@
 }
 
 .sobre__texto {
-    line-height: normal;
+    /* line-height: normal;
     font-family: var(--epilogue);
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; */
+
+    color: var(--branco);
+    line-height: 30px;
+    font-family: var(--epilogue);
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+
 }
 
 .sobre__texto--destaque {
