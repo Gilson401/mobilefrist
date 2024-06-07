@@ -33,7 +33,7 @@
 }
 
 .chamada__portrait {
-    width: clamp(50vw, 60vw, 400px);
+    width: 50vw; 
     border-radius: 50%;
     aspect-ratio: 1/1;
     margin-bottom: 30px;
