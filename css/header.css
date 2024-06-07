@@ -30,8 +30,7 @@
 .cabecalho__link img {
     width: 21.5px;
     aspect-ratio: 1/1;
-    /* height: 12.5px; */
-}
+ }
 
  
   @container (min-width: 700px) {
