@@ -119,3 +119,9 @@ body {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
   }
+
+
+  .carousel-dark .carousel-control-next-icon, 
+  .carousel-dark .carousel-control-prev-icon {
+    filter: none;
+}
